@@ -55,7 +55,7 @@ h1
 
 .sun {
     height: 90%;
-    padding-left: 200px;
+    padding-left: 400px;
 }
 
 .moon {
@@ -67,4 +67,9 @@ h1
     position: fixed;
     z-index: 10000;
     padding-top: 400px;
+}
+
+.tunnel{
+    z-index: 11000;
+
 }
