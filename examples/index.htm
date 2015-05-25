@@ -6,43 +6,44 @@
     <link rel="stylesheet" href="css/example.css" />
 </head>
 <body>
-    
-    <div class="horizon sun scroll">
-        <img src="images/sun.png" height=400px width=400px alt="" />
+   <div id="container"> 
+        <div class="horizon sun scroll">
+            <img src="images/sun.png" height=400px width=400px alt id="sun" />
+        </div>
+
+    <!--
+        <div class="horizon moon scroll">
+            <img src="images/moon.png" height=400px width=400px alt="" />
+        </div>
+    -->
+
+        <div class="middle scroll">
+            <img src="images/middle.png" height=800px alt="" />
+        </div>
+
+        <div class="front scroll">
+            <img src="images/front.png" height=1080px alt="" />
+        </div>
+
+       <div class="gods">
+            <img src="images/Gods.png" height=450px alt="" />
+        </div>
+
+        <div class="front tunnel scroll">
+            <img src="images/tunnel_front.png" alt="" />
+        </div>
+
+        <div class="front scroll">
+            <img src="images/tunnel_back.png" alt="" />
+        </div>
+        <div class="front scroll">
+            <img src="images/tunnel_back.png" alt="" />
+        </div>
     </div>
-    
-<!--
-    <div class="horizon moon scroll">
-        <img src="images/moon.png" height=400px width=400px alt="" />
-    </div>
--->
-    
-    <div class="middle scroll">
-        <img src="images/middle.png" height=800px alt="" />
-    </div>
-    
-    <div class="front scroll">
-        <img src="images/front.png" height=1080px alt="" />
-    </div>
-    
-   <div class="gods">
-        <img src="images/Gods.png" height=450px alt="" />
-    </div>
-    
-    <div class="front tunnel scroll">
-        <img src="images/tunnel_front.png" alt="" />
-    </div>
-    
-    <div class="front scroll">
-        <img src="images/tunnel_back.png" alt="" />
-    </div>
-    <div class="front scroll">
-        <img src="images/tunnel_back.png" alt="" />
-    </div>
-   
     
     <script type="text/javascript" src="../libs/jquery.min.js"></script>
     <script type="text/javascript" src="../dist/js/jquery.jInvertScroll.js"></script>
+    <script type="text/javascript" src="js/rotate.js"></script>
     <script type="text/javascript">
     (function($) {
         $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate

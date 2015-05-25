@@ -50,8 +50,10 @@ body
 .sun {
     height: 90%;
     padding-left: 400px;
+    position: fixed;
 }
 
+#sun { right: 2rem; }
 
 .gods {
     position: fixed;
@@ -62,5 +64,4 @@ body
 .tunnel{
     z-index: 11000;
 
-}
 }
