@@ -28,22 +28,22 @@ body
   * z-index ordering of the different layers, do this for your layers,
   * also assign absolute width (to prevent issues if the script gets executed before the images get loaded)
   */
-.horizon
-{
+.horizon {
   z-index: 1;
   width: 3000px;
+  pointer-events: none;
 }
 
-.middle
-{
+.middle {
   z-index: 500;
   width: 4000px;
+  pointer-events: none;
 }
 
-.front
-{
-  z-index: 1500;
-  width: 13000px;
+.front {
+    z-index: 1500;
+    width: 13000px;
+    pointer-events: none;
 }
 
 .sun {
@@ -58,16 +58,19 @@ body
     position: fixed;
     z-index: 10000;
     bottom: 120px;
+    pointer-events: none;
 }
 
 .tunnel{
     z-index: 11000;
+    pointer-events: none;
 
 }
 .sign {
     padding-left: 2200px;
     padding-bottom: 50px;
     z-index: 11500;
+    pointer-events: none;
 }
 
 .guitar{   
@@ -78,53 +81,57 @@ body
 .sketch1{
     padding-left: 2245px;
     padding-bottom: 242px;
-     z-index: 13001;
+     z-index: 13000;
 }
 
 .sketch2{
     padding-left: 5235px;
     padding-bottom: 330px;
-     z-index: 13002;
+     z-index: 13000;
 }
 
 .sketch3{
     padding-left: 8499px;
     padding-bottom: 325px;
-    z-index: 13003;
+    z-index: 13000;
 }
 
 .sketch4{
     padding-left: 11570px;
     padding-bottom: 473px;
-     z-index: 13004;
+     z-index: 1300;
 }
 
 
 .radio {
     padding-left: 4250px;
     padding-bottom: 85px;
+    pointer-events: none;
 }
 
 .amusement {
     padding-left: 7700px;
     z-index: 9000;
+    pointer-events: none;
 
 }
 
 .amusement_f {
     padding-left: 7700px;
     z-index: 11500;
-
+    pointer-events: none;
 }
 
 .balloon {
     padding-left: 4900px;
     z-index: 11500;
      padding-bottom: 240px;
+    pointer-events: none;
 }
 
 .cinema {
     padding-left: 11400px;
     z-index: 11500;
     padding-bottom: 180px;
+    pointer-events: none;
 }
