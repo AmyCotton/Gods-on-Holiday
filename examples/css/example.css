@@ -1,7 +1,6 @@
 html,
 body
-{
-  padding-top: 10px;
+{S
   margin: 0;
   font-family: Arial, sans-serif;
 }
@@ -44,7 +43,7 @@ body
 .front
 {
   z-index: 1500;
-  width: 11900px;
+  width: 13000px;
 }
 
 .sun {
@@ -58,10 +57,74 @@ body
 .gods {
     position: fixed;
     z-index: 10000;
-    padding-top: 400px;
+    bottom: 120px;
 }
 
 .tunnel{
     z-index: 11000;
 
+}
+.sign {
+    padding-left: 2200px;
+    padding-bottom: 50px;
+    z-index: 11500;
+}
+
+.guitar{   
+    padding-left: 8350px;
+    padding-bottom: 80px;
+}
+
+.sketch1{
+    padding-left: 2245px;
+    padding-bottom: 242px;
+     z-index: 13001;
+}
+
+.sketch2{
+    padding-left: 5235px;
+    padding-bottom: 330px;
+     z-index: 13002;
+}
+
+.sketch3{
+    padding-left: 8499px;
+    padding-bottom: 325px;
+    z-index: 13003;
+}
+
+.sketch4{
+    padding-left: 11570px;
+    padding-bottom: 473px;
+     z-index: 13004;
+}
+
+
+.radio {
+    padding-left: 4250px;
+    padding-bottom: 85px;
+}
+
+.amusement {
+    padding-left: 7700px;
+    z-index: 9000;
+
+}
+
+.amusement_f {
+    padding-left: 7700px;
+    z-index: 11500;
+
+}
+
+.balloon {
+    padding-left: 4900px;
+    z-index: 11500;
+     padding-bottom: 240px;
+}
+
+.cinema {
+    padding-left: 11400px;
+    z-index: 11500;
+    padding-bottom: 180px;
 }
