@@ -78,30 +78,6 @@ body
     padding-bottom: 80px;
 }
 
-.sketch1{
-    padding-left: 2245px;
-    padding-bottom: 242px;
-     z-index: 13000;
-}
-
-.sketch2{
-    padding-left: 5235px;
-    padding-bottom: 330px;
-     z-index: 13000;
-}
-
-.sketch3{
-    padding-left: 8499px;
-    padding-bottom: 325px;
-    z-index: 13000;
-}
-
-.sketch4{
-    padding-left: 11570px;
-    padding-bottom: 473px;
-     z-index: 13000;
-}
-
 
 .radio {
     padding-left: 4250px;
@@ -141,9 +117,26 @@ body
     width: 13000px;
 }
 
-.video {
+.sketch1 {
 	position: relative;
 	left: 2245px;
 	bottom: 242px;
 }
 
+.sketch2 {
+    position: relative;
+    left: 5235px;
+    bottom: 330px;
+}
+
+.sketch3 {
+    position: relative;
+    left: 8499px;
+    bottom: 325px;
+}
+
+.sketch4 {
+    position: relative;
+    left: 11570px;
+    bottom: 473px;
+}
