@@ -86,14 +86,16 @@ body
 }
 
 .amusement {
-    padding-left: 6550px;
+    bottom: 40px;
+    padding-left: 6600px;
     z-index: 9000;
     pointer-events: none;
 
 }
 
 .amusement_f {
-    padding-left: 6550px;
+    padding-bottom: 40px;
+   padding-left: 6600px;
     z-index: 11500;
     pointer-events: none;
 }
@@ -125,14 +127,14 @@ body
 
 .sketch2 {
     position: relative;
-    left: 4835px;
-    bottom: 330px;
+    left: 4745px;
+    bottom: 315px;
 }
 
 .sketch3 {
     position: relative;
-    left: 7349px;
-    bottom: 325px;
+    left: 7240px;
+    bottom: 300px;
 }
 
 .sketch4 {
