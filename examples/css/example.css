@@ -67,7 +67,7 @@ body
 
 }
 .sign {
-    padding-left: 2200px;
+    padding-left: 2400px;
     padding-bottom: 50px;
     z-index: 11500;
     pointer-events: none;
@@ -80,33 +80,33 @@ body
 
 
 .radio {
-    padding-left: 4250px;
+    padding-left: 4050px;
     padding-bottom: 85px;
     pointer-events: none;
 }
 
 .amusement {
-    padding-left: 7700px;
+    padding-left: 6550px;
     z-index: 9000;
     pointer-events: none;
 
 }
 
 .amusement_f {
-    padding-left: 7700px;
+    padding-left: 6550px;
     z-index: 11500;
     pointer-events: none;
 }
 
 .balloon {
-    padding-left: 4900px;
+    padding-left: 4500px;
     z-index: 11500;
      padding-bottom: 240px;
     pointer-events: none;
 }
 
 .cinema {
-    padding-left: 11400px;
+    padding-left: 9400px;
     z-index: 11500;
     padding-bottom: 180px;
     pointer-events: none;
@@ -119,24 +119,24 @@ body
 
 .sketch1 {
 	position: relative;
-	left: 2245px;
-	bottom: 242px;
+	left: 2428px;
+	bottom: 212px;
 }
 
 .sketch2 {
     position: relative;
-    left: 5235px;
+    left: 4835px;
     bottom: 330px;
 }
 
 .sketch3 {
     position: relative;
-    left: 8499px;
+    left: 7349px;
     bottom: 325px;
 }
 
 .sketch4 {
     position: relative;
-    left: 11570px;
-    bottom: 473px;
+    left: 9525px;
+    bottom: 395px;
 }
