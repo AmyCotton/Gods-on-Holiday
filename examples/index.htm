@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<title>Gods on Holiday</title>
+ <meta charset="utf-8" />
+ <title>Gods on Holiday</title>
     <link rel="stylesheet" href="css/example.css" />
 </head>
 <body>
@@ -11,90 +11,101 @@
        <div class="gods">
             <img src="images/Gods.png" height=340px alt="" />
         </div>
-
+       
         <div class="horizon sun scroll">
             <img src="images/sun.png" height=400px width=400px alt id="sun" />
         </div>
-
+       
         <div class="middle scroll">
             <img src="images/middle.png" height=700px alt="" />
         </div>
-
+       
         <div class="front scroll">
             <img src="images/front.png" height=900px alt="" />
         </div>
+       
+        <div class="front scroll tunnel">
+            <img src="images/tunnel_front.png" height=515px; alt="" />
+        </div>
 
+       <div class="front scroll golf">
+            <img src="images/golf_sign.png" height=570px alt="" />
+        </div>
+       
+       <div class="front scroll trees">
+            <img src="images/trees.png" height="600px" alt="" />
+        </div>
+       
         <div class="front scroll sign">
             <img src="images/sign.png" height=570px alt="" />
         </div>
 
-        <div class="front tunnel scroll">
-            <img src="images/tunnel_front.png" height="1200px" alt="" />
-        </div>
-
-        <div class="front scroll">
-            <img src="images/tunnel_back.png" height="1200px" alt="" />
-        </div>
-
-
-        <div class="front scroll radio">
-            <img src="images/radio.png" height=175px />
-       </div>
-
         <div class="front scroll amusement_f">
             <img src="images/amusement_front.png" height=800px alt="" />
         </div>
-
+       
        <div class="front scroll amusement">
             <img src="images/amusement_back.png" height=800px alt="" />
         </div>
-
+<!--
        <div class="front scroll balloon">
             <img src="images/balloon.png" height="1000px" alt="" />
         </div>
-
+-->
        <div class="front scroll cinema">
             <img src="images/cinema.png" height=475px alt="" />
         </div>
-
-	   <div class="video-container scroll">
-	   		<div class="sketch1">
-		   		<iframe width="360" height="203" src="https://www.youtube.com/embed/spckK05L_g4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-	   		</div>
-	   </div>
-
+       
         <div class="video-container scroll">
+            <div class="sketch1">
+                <video width="360" height="203" id="sketch1" controls>
+                    <source src="video/sketch1.mp4" type="video/mp4">
+                </video>
+            </div>
+            
             <div class="sketch2">
-                  <iframe width="205" height="115" src="https://www.youtube.com/embed/1sbce43hgs8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div class="video-container scroll">
+                <video width="265" height="149" id="sketch2" controls>
+                <source src="video/sketch2.mp4" type="video/mp4">
+                </video>
+            </div>
+            
             <div class="sketch3">
-                   <iframe width="254" height="143" src="https://www.youtube.com/embed/spckK05L_g4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div class="video-container scroll">
+                <video width="254" height="243" id="sketch3" controls>
+                    <source src="video/sketch3.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            
             <div class="sketch4">
-                    <iframe width="390" height="219" src="https://www.youtube.com/embed/1sbce43hgs8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <video width="390" height="219" id="sketch4" controls>
+                    <source src="video/sketch4.mp4" type="video/mp4">
+                </video>
+            </div>
+       </div>
+       
+                
+        <div class="audio-container scroll">
+            <div class="imageRadio">
+                <img id="imageRadio" src="images/radio.png" height="150px" onclick="playRadio()">
+                <audio id="radio">
+                    <source src="audio/radio.wav" type="audio/wav">
+                </audio>
+            </div>
         </div>
 
-
+        <div class="audio-container scroll">
+            <div class="pictureGuitar">
+                <img id="pictureGuitar" src="images/guitar.png" height="150px" onclick="playGuitar()">
+                <audio id="guitar">
+                    <source src="audio/guitar.wav" type="audio/wav">
+                </audio>
+            </div>
+        </div>
+       
+       
     </div>
-
-
     <script type="text/javascript" src="../libs/jquery.min.js"></script>
     <script type="text/javascript" src="../dist/js/jquery.jInvertScroll.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>
-    <script type="text/javascript">
-    (function($) {
-        $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
-            {
-            height: 6000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
-            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
-                console.log(percent);
-            }
-        });
-    }(jQuery));
-    </script>
 </body>
 </html>

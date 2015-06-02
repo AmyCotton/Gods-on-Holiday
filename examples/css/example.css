@@ -1,13 +1,12 @@
 html,
 body
-{S
+{
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
 /* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
-body
-{
+body {
   overflow-x: hidden;
   background-color: #22a8cb;
 }
@@ -17,8 +16,7 @@ body
   * important: keep position fixed, you can however use top:0 instead of bottom:0
   * if you want to make it stick to the top of the browser
   */
-.scroll
-{
+.scroll {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -64,81 +62,95 @@ body
 .tunnel{
     z-index: 11000;
     pointer-events: none;
+    padding-left: 1295px;
+    padding-bottom: 40px;
 
 }
 .sign {
-    padding-left: 2400px;
+    padding-left: 3400px;
     padding-bottom: 50px;
     z-index: 11500;
     pointer-events: none;
 }
 
-.guitar{
-    padding-left: 8350px;
-    padding-bottom: 80px;
+.golf {
+    padding-left: 6700px;
+    bottom: 140px;
+    z-index: 11000;
 }
 
-
-.radio {
-    padding-left: 4050px;
-    padding-bottom: 85px;
-    pointer-events: none;
+.trees {
+    padding-left: 5700px;
+    bottom: 60px;
+    z-index: 11000;
 }
 
 .amusement {
     bottom: 40px;
-    padding-left: 6600px;
-    z-index: 9000;
+    padding-left: 7500px;
+    z-index: 8000;
     pointer-events: none;
 
 }
 
 .amusement_f {
     padding-bottom: 40px;
-   padding-left: 6600px;
-    z-index: 11500;
+    padding-left: 7500px;
+    z-index: 11000;
     pointer-events: none;
 }
 
-.balloon {
-    padding-left: 4500px;
-    z-index: 11500;
-     padding-bottom: 240px;
-    pointer-events: none;
-}
 
 .cinema {
-    padding-left: 9400px;
+    padding-left: 10400px;
     z-index: 11500;
     padding-bottom: 180px;
     pointer-events: none;
 }
 
 .video-container {
-    z-index: 20000;
+    z-index: 30000;
+    width: 13000px;
+}
+
+.audio-container {
+    z-index: 40000;
     width: 13000px;
 }
 
 .sketch1 {
 	position: relative;
-	left: 2428px;
-	bottom: 212px;
+	left: 3428px;
+	bottom: 2px;
 }
 
 .sketch2 {
     position: relative;
-    left: 4745px;
-    bottom: 315px;
+    left: 6725px;
+    bottom: 5px;
 }
 
 .sketch3 {
     position: relative;
-    left: 7240px;
-    bottom: 300px;
+    left: 8140px;
+    bottom: 28px;
 }
 
 .sketch4 {
     position: relative;
-    left: 9525px;
+    left: 10525px;
     bottom: 395px;
+}
+
+.imageRadio {
+    position: relative;
+    left: 5050px;
+    bottom: 115px;
+}
+    
+
+.pictureGuitar{
+    position: relative;
+    left: 9750px;
+    bottom: 80px;  
 }
